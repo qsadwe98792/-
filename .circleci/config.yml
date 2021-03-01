@@ -1,6 +1,12 @@
-git clone https://github.com/qsadwe98792/qsadwe98792.github.io
-cd qsadwe98792.github.io
-echo "超正規的入骨三分(除了糖漿鬆餅)" >file///C:/Users/Administrator/Desktop/COC/團錄/超正規的入骨三分(除了糖漿鬆餅).html
-git add --all
-git commit -m "Initial commit"
-git push -u origin main
+package main
+
+import (
+    "net/http"
+    "fmt"
+)
+
+func setupRoutes( ) {
+    http.Handlefanc("/upload", uploadFile)
+fune main( ) {
+    fmt.println("Go File Upload Tutorial")
+}
